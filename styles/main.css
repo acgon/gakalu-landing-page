@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient( rgb(29, 48, 73) 60%, rgb(0, 0, 0) 100% );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    margin: 10px auto;
+    
+    align-items: center;
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  
+  }
+
+header div {
+    display: inline-block;
+    padding: 7px;
+    position: relative;
+    top: calc(50% - 30px);
+
+    background: white;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 1 );
+
+}
+
+h1 {
+    color: rgb(1, 22, 51);
+}
+
+a {
+    color: rgb(0, 82, 97);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(2, 135, 158);
+    font-weight: bold;
+    font-size: 14;
+}
+
+b {
+    color: rgb(0, 82, 97);
+}
+
+.logo-gakalu {
+    width: 120px;
+    padding-left: 45px;
+    position: relative;
+    top: calc(50% - 30px);
+    vertical-align: middle;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    
+    background: rgba( 255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 1 );
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.container img {
+    width: 300px;
+    height: auto;
+}
